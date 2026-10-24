@@ -1,0 +1,13 @@
+{
+  "name": "firibstop-uz-offline-shield",
+  "version": "2.5.1",
+  "private": true,
+  "description": "FiribStop UZ security helper with premium responsive UI, consistent light/dark themes, and resilient regional map",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/security-database.test.js tests/analyzer.test.js tests/server-hardening.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
